@@ -1,4 +1,3 @@
----
 
 # 🛡️ Cynet 360 Real-Time Alerts Collector
 
