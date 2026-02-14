@@ -14,7 +14,7 @@ A production-grade Python collector engineered to interface with the **Cynet 360
 - [⚙️ Tech Stack](#️-tech-stack)
 - [📂 Project Architecture](#-project-architecture)
 - [🔍 Code Logic Breakdown](#-code-logic-breakdown)
-- [📜 Full Production Script](#-full-production-script)
+- [📜 Full Script](#-full-script)
 - [🛠 Security Best Practices](#-security-best-practices)
 - [📈 Deployment Strategy](#-deployment-strategy)
 
@@ -81,7 +81,7 @@ Here is a surgical breakdown of what each section of the code handles:
 
 ---
 
-## 📜 Full Production Script
+## 📜 Full Script
 
 ```python
 import http.client
