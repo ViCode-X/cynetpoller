@@ -184,7 +184,7 @@ if __name__ == "__main__":
 
 ---
 
-## 🛠 Security Best Practices and Important Consideration before use
+## 🛠 Security Best Practices and Important Consideration before Use
 
 | Risk | Mitigation |
 | --- | --- |
