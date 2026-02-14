@@ -1,5 +1,4 @@
 
-```markdown
 # 🛡️ Cynet 360 Real-Time Alerts Collector
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
@@ -26,7 +25,7 @@ This project implements a high-reliability polling client for Cynet 360 that:
 
 
 
-```mermaid
+
 graph TD
     A[Start Collector] --> B{Token Valid?}
     B -- No --> C[POST /api/account/token]
@@ -36,8 +35,6 @@ graph TD
     E --> F[Update LastSeen Cursor]
     F --> G[Sleep 60s]
     G --> B
-
-```
 
 ---
 
