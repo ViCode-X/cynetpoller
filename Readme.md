@@ -199,8 +199,8 @@ if __name__ == "__main__":
 | Risk | Mitigation |
 | --- | --- |
 | 🔑 **Credential Leak** and  Hardcoded credentials | Use environment variables (`os.getenv`) instead of hardcoded strings. |
-| **Data Gaps** | Persist the `last_seen` value to a file so the script can resume after a reboot. |
-| **Token Hijacking** | Ensure `HTTPSConnection` is used (default in script) to encrypt traffic in transit. |
+| ⚠️📉 **Data Gaps** | Persist the `last_seen` value to a file so the script can resume after a reboot. |
+| 🛑🔐 **Token Hijacking** | Ensure `HTTPSConnection` is used (default in script) to encrypt traffic in transit. |
 | 🛑 API abuse | Add rate-limit handling   |
 | 💾 Lost `LastSeen` on restart | Persist to file/database  |
 | 🔁 Duplicate ingestion        | Track last alert ID       |
