@@ -83,6 +83,13 @@ Here is a surgical breakdown of what each section of the code handles:
 
 ## 📜 Full Script
 
+<details>
+  <summary>Click to Expand or check main.py </summary>
+  
+  See Risk Mitigation and Security Consideration before Use 
+  [🛠 Security Best Practices](#-security-best-practices) 
+
+
 ```python
 import http.client
 import json
@@ -181,6 +188,7 @@ if __name__ == "__main__":
         time.sleep(POLL_INTERVAL)
 
 ```
+</details>
 
 ---
 
