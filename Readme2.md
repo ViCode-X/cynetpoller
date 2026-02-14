@@ -1,7 +1,3 @@
-Below is a clean, professional, and well-structured **README.md** in full Markdown format for your project.
-
-You can copy this directly into a `README.md` file in your repository.
-
 ---
 
 # 🛡️ Cynet 360 Real-Time Alerts Collector
